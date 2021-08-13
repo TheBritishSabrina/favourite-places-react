@@ -1,5 +1,9 @@
 function AppHeader() {
-  return <div>Header test</div>;
+  return (
+    <>
+      <h1>My favourite places</h1>
+    </>
+  );
 }
 
 export default AppHeader;

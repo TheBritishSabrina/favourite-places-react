@@ -12,7 +12,7 @@ interface PlaceProps {
 function Place(props: PlaceProps): JSX.Element {
   return (
     <section className="place-section">
-      <img className="image" src={props.imageURL} />
+      <img className="image" src={props.imageURL} alt="a favourite place" />
       <h2>{props.title}</h2>
       <h3>
         {props.placeName}, {props.countryName} (

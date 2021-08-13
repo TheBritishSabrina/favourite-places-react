@@ -1,4 +1,4 @@
-function AppHeader() {
+function AppHeader(): JSX.Element {
   return (
     <>
       <h1>My favourite places</h1>
